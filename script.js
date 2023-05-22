@@ -18,9 +18,10 @@ slider1.addEventListener('input', function(){
     createGrid(n*n);
 });
 
-createGrid(16*16);
+createGrid(1*1);
 
 function createGrid(n){
+
     grid.innerHTML = '';    
     a = Math.sqrt(n);
 
@@ -37,10 +38,10 @@ function createGrid(n){
             changeColour(blocks);
         });
 
-        btn4.addEventListener('click', function() { 
+        btn4.addEventListener('click', function() { // Assign function as event handler
             eraser(blocks);
         });
-
+        
         reset(blocks);
 
         grid.appendChild(blocks);     
