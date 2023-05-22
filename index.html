@@ -8,26 +8,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <h1>Etch-A-Sketch</h1>
+
     <div class="container">
-        <h1>Etch-A-Sketch</h1>
 
         <div class="btn-container">
-            <div id="btn1">
-                <input type="range" id="slider1" min="1" max="16" value="1">
+
+            <div id="btn1" class="slider-container">
                 <p id="sliderValue1">1 x 1</p>
-            </div>    
+                <input type="range" id="slider1" min="1" max="16" value="1">
+            </div>       
 
-            <div id="btn-2">
-                <button id="btn2">Clear</button>
-            </div>    
+            <div id="btn5" class="color-picker-container">
+                <input type="color" id="colorPicker" value="#000000">
+            </div>
 
-            <div id="btn-3">
+            <div id="btn-3" class="button-container">
                 <button id="btn3">Colour</button>
             </div>
 
-            <din id="btn-4">
+            <div id="btn-6" class="button-container">
+                <button id="btn6">Rainbow</button>
+            </div>
+
+            <din id="btn-4" class="button-container">
                 <button id="btn4">Eraser</button>  
             </din>
+
+            <div id="btn-2" class="button-container">
+                <button id="btn2">Clear</button>
+            </div> 
+
         </div>
 
         <script src="script.js"></script>
