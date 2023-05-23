@@ -67,13 +67,13 @@ function changeColour(e){
 
 function reset(e){
     btn2.addEventListener('click', function(){
-        e.style.backgroundColor = 'white';
+        e.style.backgroundColor = 'transparent';
     });
 }
 
 function eraser(e){
     e.addEventListener('mouseover', function(){
-        e.style.backgroundColor = 'white';
+        e.style.backgroundColor = 'transparent';
     });
 }
 
